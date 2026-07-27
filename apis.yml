@@ -1,8 +1,16 @@
 aid: flashfood
 name: Flashfood
-description: Flashfood is a company surfaced as a portfolio company of general-catalyst, techstars and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Flashfood is a Toronto-based mobile marketplace that connects shoppers with
+  heavily discounted groceries nearing their best-by date at partner grocery
+  stores across the United States and Canada. Through its iOS and Android apps,
+  shoppers browse deals of up to 50% off on fresh produce, meat, dairy, and
+  packaged goods, pay in-app, and pick the items up at a dedicated Flashfood
+  Zone in-store. By routing surplus food away from landfills and onto dinner
+  tables, the company reduces grocery-retail food waste while helping families
+  save on their grocery bills. Flashfood is a consumer-facing app and does not
+  currently publish a public developer API, SDK, or developer portal; this
+  profile captures its public web, legal, and security surface.
 url: https://raw.githubusercontent.com/api-evangelist/flashfood/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +19,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://flashfood.com/favicon.ico
 tags:
 - Company
+- Food Waste
+- Grocery
+- Retail
+- Sustainability
+- Marketplace
+- Consumer App
+- Food Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,18 @@ maintainers:
 common:
 - type: Website
   url: https://flashfood.com/
+- type: Support
+  url: https://help.flashfood.com/hc/en-us
+- type: HelpCenter
+  url: https://help.flashfood.com/hc/en-us
+- type: TermsOfService
+  url: https://flashfood.com/en/terms
+- type: PrivacyPolicy
+  url: https://flashfood.com/en/privacy
+- type: DomainSecurity
+  url: security/flashfood-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
